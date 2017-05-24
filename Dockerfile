@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 RUN apt-get update -y
-RUN echo "Hello world"
+RUN echo "Helloworld"
 #this is for test
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
 RUN apt-get install -y software-properties-common
